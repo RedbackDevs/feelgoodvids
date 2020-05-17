@@ -1,0 +1,132 @@
+[2020-05-12 22:15:36.894] [exthost] [info] extension host started
+[2020-05-12 22:15:36.944] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-12 22:15:36.944] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-05-12 22:15:36.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-12 22:15:36.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-05-12 22:15:36.956] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-05-12 22:15:36.956] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-05-12 22:15:37.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-05-12 22:15:37.002] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-05-12 22:15:37.006] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-12 22:15:37.006] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-05-12 22:15:37.007] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-12 22:15:37.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-05-12 22:15:37.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-12 22:15:37.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-05-12 22:15:37.012] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-05-12 22:15:37.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/redbackdevs/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-05-12 22:15:37.498] [exthost] [info] eager extensions activated
+[2020-05-12 22:15:50.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-05-12 22:15:50.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-05-12 22:22:35.791] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-05-12 22:22:35.792] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191493)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196366
+	at Object.asCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196480)
+	at o (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:379
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:988
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:960)
+	at U.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:350)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:35
+	at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:862)
+	at e.$resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:13)
+	at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:757)
+	at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:449)
+	at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:69)
+	at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:785:970)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:784:213
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:957:179
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:17)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:234:155
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:230:129)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:229:483
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:238:565)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-05-12 22:22:36.766] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-05-12 22:22:36.766] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191493)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196366
+	at Object.asCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196480)
+	at o (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:379
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:988
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:960)
+	at U.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:350)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:35
+	at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:862)
+	at e.$resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:13)
+	at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:757)
+	at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:449)
+	at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:69)
+	at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:785:970)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:784:213
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:957:179
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:17)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:234:155
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:230:129)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:229:483
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:238:565)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-05-12 22:22:37.019] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-05-12 22:22:37.019] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191493)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196366
+	at Object.asCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196480)
+	at o (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:379
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:988
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:960)
+	at U.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:350)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:35
+	at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:862)
+	at e.$resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:13)
+	at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:757)
+	at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:788:449)
+	at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:69)
+	at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:785:970)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:784:213
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:957:179
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:615)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:17)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:234:155
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:67)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:230:129)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:229:483
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:238:565)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-05-12 22:35:15.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-05-12 22:35:15.667] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-05-12 23:01:35.077] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-05-12 23:01:35.078] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension

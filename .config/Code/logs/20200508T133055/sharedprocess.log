@@ -1,0 +1,9 @@
+[2020-05-08 13:30:58.628] [sharedprocess] [info] main {"machineId":"0b3f39e8fbeeb43a9798e199e922ae988e776b24d058ae6bc3983b72c04b75d6","windowId":2}
+[2020-05-08 13:30:58.678] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/redbackdevs/.config/Code/User/snippets'
+[2020-05-08 13:31:38.646] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-05-08 13:34:28.974] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2020-05-08 13:34:30.016] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /tmp/f3b89d65-2677-41e4-a823-e892c96ab668
+[2020-05-08 13:34:32.384] [sharedprocess] [info] Extracted extension to /home/redbackdevs/.vscode/extensions/.ritwickdey.liveserver-5.6.1: ritwickdey.liveserver
+[2020-05-08 13:34:32.385] [sharedprocess] [info] Renamed to /home/redbackdevs/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2020-05-08 13:34:32.386] [sharedprocess] [info] Installation completed. ritwickdey.liveserver
+[2020-05-08 13:34:32.442] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver
